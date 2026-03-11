@@ -1,0 +1,18 @@
+{
+  "name": "obsidian-outline-levels",
+  "version": "1.0.0",
+  "description": "Add H1-H6 level badges to Obsidian Outline panel",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc -noEmit && node esbuild.config.mjs"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "esbuild": "^0.27.3",
+    "obsidian": "^1.12.3",
+    "typescript": "^5.9.3"
+  }
+}

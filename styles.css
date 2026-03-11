@@ -1,0 +1,46 @@
+/* Obsidian Outline Levels - 徽章样式 */
+
+/* 徽章基础样式 */
+.outline-level-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 18px;
+  margin-right: 4px;
+  padding: 0 1px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: var(--font-text);
+  color: var(--text-muted);
+  background: var(--background-secondary);
+  border: 1px solid var(--border-color);
+  position: relative;
+  top: 1px;
+}
+
+/* 各层级徽章 */
+.outline-level-badge[data-level="1"] {
+  /* H1 */
+}
+
+.outline-level-badge[data-level="2"] {
+  /* H2 */
+}
+
+.outline-level-badge[data-level="3"] {
+  /* H3 */
+}
+
+.outline-level-badge[data-level="4"] {
+  /* H4 */
+}
+
+.outline-level-badge[data-level="5"] {
+  /* H5 */
+}
+
+.outline-level-badge[data-level="6"] {
+  /* H6 */
+}

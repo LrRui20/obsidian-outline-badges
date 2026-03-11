@@ -1,0 +1,12 @@
+{
+  "id": "obsidian-outline-levels",
+  "name": "Outline Levels",
+  "version": "1.0.0",
+  "minVersion": "0.15.0",
+  "description": "Add H1-H6 level badges to the Outline panel",
+  "author": "",
+  "authorUrl": "",
+  "fundingUrl": "",
+  "license": "MIT",
+  "isDesktopOnly": false
+}
