@@ -20,11 +20,11 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // main.ts
 var main_exports = {};
 __export(main_exports, {
-  default: () => OutlineLevels
+  default: () => OutlineLevelsBadges
 });
 module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
-var OutlineLevels = class extends import_obsidian.Plugin {
+var OutlineLevelsBadges = class extends import_obsidian.Plugin {
   constructor() {
     super(...arguments);
     this.currentFile = null;
@@ -109,9 +109,10 @@ var OutlineLevels = class extends import_obsidian.Plugin {
     }
   }
   loadStyles() {
+    const pluginId = this.manifest.id;
     this.styleLink = document.createElement("link");
     this.styleLink.rel = "stylesheet";
-    this.styleLink.href = this.app.vault.configDir + "/plugins/obsidian-outline-levels/styles.css";
+    this.styleLink.href = this.app.vault.configDir + "/plugins/" + pluginId + "/styles.css";
     document.head.appendChild(this.styleLink);
   }
 };

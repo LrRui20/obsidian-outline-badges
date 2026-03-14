@@ -21,9 +21,9 @@ Add H1-H6 level badges to the Obsidian Outline panel.
 
 ## Installation
 
-1. Download `main.js`, `styles.css`, and `manifest.json` from [GitHub Releases](https://github.com/LrRui20/obsidian-outline-badges/releases)
-2. Create a folder named `obsidian-outline-badges` in your vault's `/.obsidian/plugins/` directory
-3. Place the three downloaded files into the `obsidian-outline-badges` folder
+1. Download `main.js`, `styles.css`, and `manifest.json` from [GitHub Releases](https://github.com/LrRui20/obsidian-outline-levels-badges/releases)
+2. Create a folder named `obsidian-outline-levels-badges` in your vault's `/.obsidian/plugins/` directory
+3. Place the three downloaded files into the `obsidian-outline-levels-badges` folder
 4. Enable the plugin in Settings → Community Plugins
 
 ## Customization
@@ -60,8 +60,8 @@ If you want to modify the code and build the plugin yourself:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/LrRui20/obsidian-outline-badges.git
-cd obsidian-outline-badges
+git clone https://github.com/LrRui20/obsidian-outline-levels-badges.git
+cd obsidian-outline-levels-badges
 
 # 2. Install dependencies
 npm install
@@ -75,7 +75,7 @@ After building, `main.js` will be generated in the project root.
 ### Project Structure
 
 ```
-obsidian-outline-badges/
+obsidian-outline-levels-badges/
 ├── main.ts          # Plugin source code
 ├── styles.css       # Badge styles
 ├── manifest.json    # Plugin manifest

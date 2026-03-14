@@ -21,9 +21,9 @@
 
 ## 安装方法
 
-1. 从 [GitHub Releases](https://github.com/LrRui20/obsidian-outline-badges/releases) 下载`main.js`, `styles.css`, 和 `manifest.json`文件
-2. 在你的仓库`/.obsidian/plugins`目录下创建`obsidian-outline-badges`文件夹
-3. 将下载的三个文件放入`obsidian-outline-badges`文件夹中
+1. 从 [GitHub Releases](https://github.com/LrRui20/obsidian-outline-levels-badges/releases) 下载`main.js`, `styles.css`, 和 `manifest.json`文件
+2. 在你的仓库`/.obsidian/plugins`目录下创建`obsidian-outline-levels-badges`文件夹
+3. 将下载的三个文件放入`obsidian-outline-levels-badges`文件夹中
 4. 在设置 → 社区插件中启用插件
 
 ## 自定义样式
@@ -59,8 +59,8 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/LrRui20/obsidian-outline-badges.git
-cd obsidian-outline-badges
+git clone https://github.com/LrRui20/obsidian-outline-levels-badges.git
+cd obsidian-outline-levels-badges
 
 # 2. 安装依赖
 npm install
@@ -74,7 +74,7 @@ npm run build
 ### 项目结构
 
 ```
-obsidian-outline-badges/
+obsidian-outline-levels-badges/
 ├── main.ts          # 插件源代码
 ├── styles.css       # 徽章样式
 ├── manifest.json    # 插件清单

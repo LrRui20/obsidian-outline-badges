@@ -5,7 +5,7 @@ interface Heading {
   text: string;
 }
 
-export default class OutlineLevels extends Plugin {
+export default class OutlineLevelsBadges extends Plugin {
   private currentFile: TFile | null = null;
   private styleLink: HTMLLinkElement | null = null;
 
@@ -103,9 +103,10 @@ export default class OutlineLevels extends Plugin {
   }
 
   loadStyles() {
+    const pluginId = this.manifest.id;
     this.styleLink = document.createElement('link');
     this.styleLink.rel = 'stylesheet';
-    this.styleLink.href = this.app.vault.configDir + '/plugins/obsidian-outline-levels/styles.css';
+    this.styleLink.href = this.app.vault.configDir + '/plugins/' + pluginId + '/styles.css';
     document.head.appendChild(this.styleLink);
   }
 }
